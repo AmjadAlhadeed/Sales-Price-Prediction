@@ -1,11 +1,41 @@
-# House Price Prediction Using Multiple Linear Regression
+# House Sale Price Prediction
 
-This project involves the development and evaluation of a machine learning model to predict house prices based on a dataset containing various features like living area, overall quality, year built, and more. The analysis includes data cleaning, feature selection, handling multicollinearity, and applying multiple linear regression to build an accurate predictive model. The project also ensures the model adheres to key assumptions of linear regression through residual analysis and Q-Q plots. Key tests like Kruskal-Wallis and Dunn's test are performed to evaluate statistical significance among categorical features.
+## Project Overview
 
-Key features:  
+This project aims to build a multiple linear regression model to predict house sale prices. The dataset contains various features about houses, such as their size, location, and quality. By leveraging this information, the model will predict the sale price of the houses.
 
-  -Data preprocessing and handling of missing values
-  -Multicollinearity resolution through Variance Inflation Factor (VIF)
-  -Multiple linear regression model for house price prediction
-  -Evaluation of model assumptions using residual plots
-  -Statistical tests to analyze categorical feature significance
+## Dataset Information
+
+The dataset contains the following key features:
+- **MSSubClass**: The building class.
+- **LotArea**: Lot size in square feet.
+- **OverallQual**: Overall material and finish quality.
+- **YearBuilt**: Original construction date.
+- **GrLivArea**: Above grade (ground) living area square feet.
+- **SalePrice**: The property's sale price (target variable).
+
+## Key Features of the Project
+
+- **Data Cleaning & Preprocessing**:
+  - Handle missing data and convert categorical variables using techniques like target encoding.
+  - Remove features with high multicollinearity (using VIF).
+  
+- **Exploratory Data Analysis (EDA)**:
+  - Visualize the relationships between features and sale price.
+  - Identify the most important features affecting house prices.
+
+- **Model Building**:
+  - Construct a multiple linear regression model to predict house prices.
+  - Feature selection based on Variance Inflation Factor (VIF).
+  
+- **Model Evaluation**:
+  - Use metrics like Mean Squared Error (MSE) and R-squared to evaluate model performance.
+
+## Installation & Requirements
+
+To run this project, you will need Python and the following libraries:
+
+- **Pandas**: For data manipulation.
+- **Matplotlib** and **Seaborn**: For data visualization.
+- **Scikit-learn**: For model building and evaluation.
+- **Statsmodels**: For regression analysis and VIF calculations.
