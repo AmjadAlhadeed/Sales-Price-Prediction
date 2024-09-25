@@ -4,8 +4,8 @@ This project involves the development and evaluation of a machine learning model
 
 Key features:
 
-Data preprocessing and handling of missing values
-Multicollinearity resolution through Variance Inflation Factor (VIF)
-Multiple linear regression model for house price prediction
-Evaluation of model assumptions using residual plots
-Statistical tests to analyze categorical feature significance
+-Data preprocessing and handling of missing values
+-Multicollinearity resolution through Variance Inflation Factor (VIF)
+-Multiple linear regression model for house price prediction
+-Evaluation of model assumptions using residual plots
+-Statistical tests to analyze categorical feature significance
